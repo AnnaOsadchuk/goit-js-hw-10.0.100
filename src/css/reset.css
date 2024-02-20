@@ -8,7 +8,13 @@ h6,
 p {
   margin: 0;
 }
+list {
+  list-style: none;
+}
 
+link {
+  text-decoration: none;
+}
 p:last-child {
   margin-bottom: 0;
 }

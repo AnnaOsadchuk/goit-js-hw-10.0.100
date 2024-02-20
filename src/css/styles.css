@@ -23,3 +23,118 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.container {
+  margin-top: 36px;
+  margin-left: 156px;
+}
+.link-page {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #095d22;
+}
+.welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #1130ac;
+  margin-top: 12px;
+  margin-bottom: 64px;
+}
+
+/* Зробимо кнопку Start спочатку неактивною */
+input {
+  /* font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px; */
+  border-bottom: 2px solid #808080;
+  width: 272px;
+  height: 40px;
+  color: #2e2f42;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  margin-right: 8px;
+  padding-left: 16px;
+}
+input:hover,
+input:focus {
+  border-color: #2e2f42;
+}
+
+input:active {
+  border-color: #4e75ff;
+  color: #000000;
+}
+.disable {
+  color: #808080;
+  background-color: #fafafa;
+}
+
+button[data-start] {
+  background-color: #4e75ff;
+  font-family: 'Montserrat', Medium;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 75px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+button[data-start]:hover,
+button[data-start]:focus {
+  background-color: #6c8cff;
+}
+
+button[data-start]:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+  cursor: not-allowed;
+}
+
+.timer {
+  display: flex;
+  gap: 8px; /* Встановіть відповідний проміжок */
+}
+
+.timer .field {
+  text-align: center;
+}
+
+.timer .value {
+  font-size: 2em; /* або розмір згідно макету */
+}
+
+.timer .label {
+  font-size: 0.75em; /* або розмір згідно макету */
+}
+
+div.flatpickr-calendar {
+  background-color: #f5f5f5;
+  font-family: Montserrat;
+}
+
+div.flatpickr-time {
+  font-size: 16px;
+}
+
+.flatpickr-time input.flatpickr-hour,
+.flatpickr-time input.flatpickr-minute {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flatpickr-current-month {
+  font-family: 'Montserrat', semibold;
+  font-size: 16px;
+}
